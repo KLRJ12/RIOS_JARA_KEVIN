@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (enteredName && enteredEmail) {
             if (isEditMode) {
-                // Modo edición: Actualiza el usuario actual
                 currentUserBox.querySelector('p:nth-child(1)').textContent = `Nombre: ${enteredName}`;
                 currentUserBox.querySelector('p:nth-child(2)').textContent = `RUC: ${enteredRUC}`;
                 currentUserBox.querySelector('p:nth-child(3)').textContent = `Correo Electrónico: ${enteredEmail}`;
